@@ -65,3 +65,19 @@ This project is open for contributions. If you want to contribute to this projec
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+This repository contains all the codes and files for the Grain Quality Predictor project. The project is a web application that can predict the quality of different types of grains based on their size, shape, color, and texture. The project uses logistic regression models and label encoders that were trained and saved using a dataset of grain quality. The web application provides a user-friendly interface for inputting and displaying the data and predictions using streamlit widgets and functions. The web application can also run on a local or remote server using flask. The repository includes the following files:
+
+- Grain_Quality_Prediction - Web App.py: The main script that runs the web application using streamlit and flask.
+- Models: A folder that contains the pickle files of the logistic regression models for each grain type.
+- Encoders: A folder that contains the pickle files of the label encoders for each categorical feature of the grain data.
+- Dataset: A folder that contains the csv files of the grain quality data for each grain type.
+- Images: A folder that contains the image of grains that is displayed on the web application.
+- Train Model Code Report.md: A markdown file that contains the code report for the model training code (code 1).
+- Web App Code Report.md: A markdown file that contains the code report for the web application code (code 2).
+- Project Report.md: A markdown file that contains the project report for the Grain Quality Predictor project.
+- README.md: A markdown file that contains the description, installation, usage, contributing, and license information for the repository.
+- LICENSE: A text file that contains the MIT License for the repository.
+
+The repository is open for contributions and feedback. If you are interested in this project, please feel free to clone, fork, or star this repository. Thank you! 😊
