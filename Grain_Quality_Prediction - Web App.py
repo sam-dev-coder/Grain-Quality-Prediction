@@ -132,9 +132,8 @@ def main():
     display_output(data, grain_type, prediction)
 
     # Display an image of grains using streamlit
-    st.image("Images/1.jpg", width=500)
+    st.image("Images/1.jpg", width=5000)
 
 if __name__ == "__main__":
     # Run the main function
     main()
-
